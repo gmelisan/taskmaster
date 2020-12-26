@@ -7,3 +7,4 @@ rl_log
 log_readline
 *.log
 *.txt
+test/taskmaster-config.yml

@@ -15,6 +15,7 @@
 int
 print_action_reload_help()
 {
-    ft_putendl("reload          Restart the remote taskmaster.");
+    ft_putendl("reload          Make daemon reload configuration and ");
+    ft_putendl("                restart changed jobs if they need it.");
     return (0);
 }

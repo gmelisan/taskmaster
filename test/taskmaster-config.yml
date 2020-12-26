@@ -1,3 +1,0 @@
-programs:
-  a:
-    cmd: "/bin/sleep 5"

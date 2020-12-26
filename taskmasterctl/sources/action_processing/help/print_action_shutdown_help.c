@@ -15,6 +15,6 @@
 int
 print_action_shutdown_help()
 {
-    ft_putendl("shutdown        Shut the remote taskmaster down.");
+    ft_putendl("shutdown        Stop running processes and shutdown daemon.");
     return (0);
 }
