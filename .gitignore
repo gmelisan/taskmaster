@@ -1,0 +1,8 @@
+.DS_Store
+*.pdf
+build
+.taskmasterctl.history
+rl_log
+log_readline
+*.log
+*.txt
