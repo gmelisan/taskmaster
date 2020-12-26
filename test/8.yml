@@ -4,7 +4,7 @@ programs:
     numprocs: 3
   b:
     cmd: "/bin/cat"
-    startretries: 0
+    startretries: 2
     autostart: false
   c:
     cmd: "/bin/sleep 10"
