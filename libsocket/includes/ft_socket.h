@@ -20,17 +20,19 @@
  #include <unistd.h>
  #include <string.h>
 
+ #define SOCKET_PATH "/tmp/taskmaster.sock"
+
 typedef struct  sockaddr_un t_sockaddr_un;
 
-#ifdef __cplusplus
-extern "C" {
-#endif
+ #ifdef __cplusplus
+ extern "C" {
+ #endif
 
 int             encode_message(const char *msg, char **p_buf, int *p_size);
 int             decode_message(const char *buf, char ***p_msgv, int *p_msgc);
 
-#ifdef __cplusplus
-}
-#endif
+ #ifdef __cplusplus
+ }
+ #endif
 
 #endif

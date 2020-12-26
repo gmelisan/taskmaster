@@ -1,1 +1,3 @@
-cmake -B build/; cd build; make; cd ..
+#!/bin/bash
+
+mkdir -p build; cd build/; cmake ..; make; cd ..

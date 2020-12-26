@@ -6,7 +6,10 @@ add_custom_target(fclean
     COMMAND ${CMAKE_BUILD_TOOL} clean
 )
 
-add_compile_definitions(SOCKET_PATH="/tmp/taskmaster.sock")
+if(${CMAKE_VERSION} VERSION_LESS "3.12.0")
+else()
+    add_compile_definitions(SOCKET_PATH="/tmp/taskmaster.sock")
+endif()
 
 add_subdirectory(libsocket)
 
