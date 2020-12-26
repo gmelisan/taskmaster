@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.16)
+
+set(PROJECT_NAME taskmaster)
+project(${PROJECT_NAME} C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_subdirectory(libft)
+add_subdirectory(libreadline)
+add_subdirectory(libsocket)
+add_subdirectory(client)
+add_subdirectory(socket_server)
+add_subdirectory(socket_client)
+
+#https://cmake.org/cmake/help/latest/command/add_custom_command.html
+#add_custom_command(TARGET <target>
+#        PRE_BUILD | PRE_LINK | POST_BUILD
+#        COMMAND command1 [ARGS] [args1...]
+#        [COMMAND command2 [ARGS] [args2...] ...]
+#        [BYPRODUCTS [files...]]
+#        [WORKING_DIRECTORY dir]
+#        [COMMENT comment]
+#        [VERBATIM] [USES_TERMINAL]
+#        [COMMAND_EXPAND_LISTS])
