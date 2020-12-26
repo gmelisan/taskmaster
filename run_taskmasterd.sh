@@ -1,0 +1,1 @@
+./build/taskmasterd/taskmasterd $@
