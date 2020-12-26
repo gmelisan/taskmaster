@@ -1,0 +1,8 @@
+programs:
+  a:
+    cmd: "/bin/pwd"
+    stdout: "21_stdout.txt"
+    workingdir: "/tmp"
+  b:
+    cmd: "/usr/bin/touch 21_file.txt"
+    umask: 0777

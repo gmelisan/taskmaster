@@ -1,0 +1,5 @@
+programs:
+  a:
+    cmd: "/bin/sleep 5"
+  b:
+    cmd: "/bin/sleep 1"

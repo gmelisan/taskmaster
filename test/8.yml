@@ -1,0 +1,11 @@
+programs:
+  a:
+    cmd: "/bin/sleep 5"
+    numprocs: 3
+  b:
+    cmd: "/bin/cat"
+    startretries: 0
+    autostart: false
+  c:
+    cmd: "/bin/sleep 10"
+    autostart: false

@@ -1,0 +1,6 @@
+programs:
+  a:
+    cmd: "/bin/sleep 5"
+    numprocs: 3
+  b:
+    cmd: "/bin/sleep 1"

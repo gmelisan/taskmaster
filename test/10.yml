@@ -1,0 +1,4 @@
+programs:
+  a:
+    cmd: "/bin/sleep 3"
+    autorestart: "always"

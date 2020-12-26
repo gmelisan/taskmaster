@@ -1,0 +1,10 @@
+programs:
+  a:
+    cmd: "/bin/sleep 4"
+    starttime: 3
+    exitcodes:
+      - 1
+      - 2 
+  b:
+    cmd: "/bin/sleep 2"
+    starttime: 3

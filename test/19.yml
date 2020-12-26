@@ -1,0 +1,9 @@
+programs:
+  a:
+    cmd: "/bin/bash -c 'echo output to stdout; exit 0'"
+    stdout: "19_stdout.txt"
+  b:
+    cmd: "/bin/bash -c 'echo 1>&2 output to stderr'"
+    stderr: "19_stderr.txt"
+  c:
+    cmd: "/bin/bash -c 'echo discarded; exit 0'"

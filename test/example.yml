@@ -1,0 +1,9 @@
+programs:
+  a:
+    cmd: "$PWD/test/sleep_ignore_term 100"
+    stoptime: 5
+  b:
+    cmd: "$PWD/test/sleep_ignore_term 100"
+    stoptime: 5
+    
+  

@@ -1,0 +1,7 @@
+programs:
+  a:
+    cmd: "/bin/sleep 2"
+    starttime: 3
+    startretries: 4
+    exitcodes:
+      - 1

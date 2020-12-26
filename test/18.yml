@@ -1,0 +1,4 @@
+programs:
+  a:
+    cmd: "$PWD/test/sleep_ignore_term 99942"
+    stoptime: 5

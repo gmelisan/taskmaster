@@ -1,0 +1,7 @@
+programs:
+  a:
+    cmd: "/usr/bin/env"
+    env:
+        VARIABLE_1: "hello"
+        VARIABLE_2: "world"
+    stdout: "20_stdout.txt"

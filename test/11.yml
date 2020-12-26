@@ -1,0 +1,4 @@
+programs:
+  a:
+    cmd: "/bin/bash -c 'sleep 3; exit 1'"
+    autorestart: "unexpected"
